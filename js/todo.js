@@ -23,7 +23,7 @@ function createTask(value) {
     return task;
 }
 
-function pressEnter(event) {
+function addTaskByEnterKey(event) {
     if (event.keyCode === 13) {
         addTask();
     }
@@ -44,7 +44,7 @@ function deleteTask(event) {
 }
 
 addButton.addEventListener('click', addTask);
-field.addEventListener("keydown", pressEnter);
+field.addEventListener("keydown", addTaskByEnterKey);
 
 function completeTask(event) {    
     const target = event.target;

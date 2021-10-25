@@ -11,7 +11,7 @@ function createTask(value) {
     text.textContent = value;
     text.contentEditable = true;      
     const checkBox = document.createElement('img');     
-    checkBox.setAttribute("src","img/checkbox.svg.");
+    checkBox.setAttribute("src","img/checkbox1.svg");
     checkBox.classList.add('checkBox');
     task.prepend(checkBox);
     checkBox.addEventListener("click", completeTask);

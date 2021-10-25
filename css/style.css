@@ -1,18 +1,21 @@
 .body {
 	  
     font-family: 'Tinos', serif;
-   
+    margin: 0;
 }
 .success {
     text-decoration: line-through;
 }
 .block {
     max-width: 600px;    
-    width: 600px;
+    width: 40%;
     height: 100%;    
     outline: none;
     font-family: 'Tinos', serif;
     margin-left: 500px;      
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 .control {
     display: flex;
@@ -65,6 +68,7 @@
 
 .taskBox {
     display:flex;
+    
     font-size: 23px;
     margin-left: 30px;
     padding: 5px 80px 5px 10px;    

@@ -1,40 +1,49 @@
 .body {
 	  
     font-family: 'Tinos', serif;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 .success {
     text-decoration: line-through;
 }
 .block {
-    max-width: 600px;    
-    width: 40%;
-    height: 100%;    
+     
+    display: flex;
+    flex-direction: column;
+       
     outline: none;
     font-family: 'Tinos', serif;
-    margin-left: 500px;      
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+        
+    
 }
 .control {
     display: flex;
-    justify-content: center;    
+    justify-content: center;
+       
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 .field {
     background: white;
-    width: 500px;
     box-sizing: border-box;
+    width: 500px;
     height: 50px;
     font-size: 23px;
     font-weight: 0.5px;
-    padding-left: 25px;
+    padding-left: 15px;
     border: 5px solid gray;
     border-radius: 12px;
     color: gray;
     font-family: 'Tinos', serif;
-    display: flex;
-    justify-content: center;
+    
     margin-bottom: 14px; 
     
 }
@@ -67,11 +76,13 @@
 }
 
 .taskBox {
-    display:flex;
+    
+    display: flex;
     
     font-size: 23px;
-    margin-left: 30px;
-    padding: 5px 80px 5px 10px;    
+    margin-left: 20px;
+    padding: 5px 10px 5px 10px;    
+    margin-right: 350px;
     width: 10em;    
 }
 .checkBox:hover {    
